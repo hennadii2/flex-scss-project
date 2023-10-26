@@ -1,0 +1,31 @@
+{
+  "name": "bem-css-example",
+  "version": "1.0.0",
+  "description": "Using of Block-element-modifier standard for CSS class  names",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/khaledayed/BEM-CSS-Example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaledayed/BEM-CSS-Example/issues"
+  },
+  "homepage": "https://github.com/khaledayed/BEM-CSS-Example#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
